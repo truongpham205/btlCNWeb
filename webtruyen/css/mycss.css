@@ -1,0 +1,70 @@
+
+a{
+    display:inline-block;
+    text-align: center;
+    padding:14px 14px 14px 14px;
+    text-decoration: none;
+    color:white;
+}
+
+a:hover 
+{
+    text-decoration: none;
+    background-color:#75A531;
+    color:white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 200px;
+   
+  }
+
+  #logo:hover{
+    background-color:#333;
+  }
+
+#footer{
+    position: relative;
+    bottom: 0%;
+    color: white;
+}
+
+hr{
+    border: 0.3px solid #93c54b;
+    
+}
+
+.email:hover{
+    background-color: #333;
+    color: greenyellow;
+}
+
+#btn-top{
+    background-color: antiquewhite;
+    color:black;
+    position:fixed;
+    right:7%;
+    bottom: 10%;
+}
+
+#form-dangnhap{
+    position:fixed;left:40%;z-index:2;background-color:white;border-radius: 5px;
+}
+
