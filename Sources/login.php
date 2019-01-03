@@ -12,7 +12,7 @@ if(isset($_POST["login"])){
 		echo '<script>alert( "Vui lòng nhập mật khẩu") </script>';
 	}
 	else {
-		$sql_login="select * from users where Name='$u' and Pass='$p' limit 1";
+		$sql_login="select * from users where Acc='$u' and Pass='$p'";
 		$run_login=mysqli_query($connect,$sql_login);
 		$count_login=mysqli_num_rows($run_login);
 		if($count_login==0){
@@ -43,7 +43,7 @@ if(isset($_POST["login"])){
 							</div>
 							<button type="submit" class="btn btn-danger btn-lg btn-block" name="login">Đăng Nhập</button><br>
 							<p>or</p>
-							<button type="button" class="btn btn-success btn-lg btn-block">Đăng Ký</button>
+							<button type="button" class="btn btn-success btn-lg btn-block" onclick="loadRegister()">Đăng Ký</button>
 						</form>
 					</div>
 		</div>
