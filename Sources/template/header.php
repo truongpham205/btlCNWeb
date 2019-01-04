@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="vi">
 	<head>
-		<title>Web truyện tranh</title>
+		<title>Web truyện</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
